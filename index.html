@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarica Documento - HSE Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .download-btn {
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm py-6">
+        <div class="container mx-auto px-4 flex items-center justify-center">
+            <img src="logo-hse-solutions.png" alt="HSE Solutions Logo" class="h-12 mr-4">
+            <h1 class="text-2xl font-semibold text-gray-800">HSE Solutions</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+            <div class="px-8 py-10 text-center">
+                <div class="mb-6">
+                    <h2 class="text-2xl font-medium text-gray-800 mb-2">Documento HSE</h2>
+                    <p class="text-gray-600">Fattore di rischio e prevenzione</p>
+                </div>
+               
+                <div class="mb-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </div>
+               
+                <p class="text-gray-600 mb-8">
+                    Documento esplicativo completo sul fattore di rischio e le misure di prevenzione nell'ambiente lavorativo.
+                </p>
+               
+                <a href="doc-rischio.pdf" class="download-btn inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg">
+                    Scarica il documento
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">HSE Solutions, Via della Sicurezza 25, Milano</p>
+            <p class="text-gray-400">Fatto per la tesi - 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

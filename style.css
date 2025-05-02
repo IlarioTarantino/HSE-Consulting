@@ -1,0 +1,92 @@
+/* Lo stile per tutto il body */
+body {
+    background-color: #f5f5f5; /* Definizione colore, grigio chiaro */
+    margin: 0; /* Toglie gli spazi intorno */
+    text-align: center; /* Allineamento al centro */
+    font-family: Arial; 
+}
+
+
+.top-part {
+    background-color: #000099; /* Definizione colore */
+    color: white;
+    padding: 20px;
+}
+
+.mylogo {
+    width: 90px; /*Ridimensionamento logo*/
+}
+
+
+.top-part h1 {
+    font-size: 22px; 
+}
+
+
+.middle-part {
+    padding: 30px; 
+}
+
+
+.box-for-download {
+    background-color: white; /* Sfondo bianco */
+    width: 80%; 
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+
+.box-for-download h2 {
+    color: #000099;
+    font-size: 18px; 
+}
+
+
+.box-for-download p {
+    color: #555; 
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Il pulsante per scaricare */
+.btn-download {
+    background-color: #000099;
+    color: white; 
+    padding: 8px 15px; 
+    text-decoration: none; 
+    border-radius: 4px;
+}
+
+
+.btn-download:hover {
+    background-color: #3366cc;
+
+
+.bottom-part {
+    background-color: #000099; 
+    color: white;
+    padding: 10px;
+    margin-top: 20px; 
+}
+
+/* Testo nel foooterr */
+.bottom-part p {
+    font-size: 12px; /*piu picccolo */
+}
+
+/* Per i cellulari*/
+@media (max-width: 500px) {
+    .box-for-download {
+        width: 95%; /* Più largo sui telefo */
+        padding: 15px; /* Meno spazio dentro */
+    }
+
+    .top-part h1 {
+        font-size: 18px; /* Titolo più piccolo */
+    }
+
+    .mylogo {
+        width: 70px; /* Logo più piccolo */
+    }
+}
